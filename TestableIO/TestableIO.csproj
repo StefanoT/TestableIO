@@ -37,7 +37,6 @@
     <Reference Include="System.Core" />
     <Reference Include="System.IO.Abstractions, Version=0.0.0.1, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>..\packages\System.IO.Abstractions.2.1.0.159\lib\net40\System.IO.Abstractions.dll</HintPath>
-      <Private>True</Private>
     </Reference>
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />

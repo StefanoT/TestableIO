@@ -48,8 +48,8 @@ namespace TestableIO
         /// <remarks>this method will search in all subfolders of the given directory</remarks>
         public void CleanupDirectory(string path)
         {
-            List<string> losslessFiles = new List<string>();  // stores full file name without extension of lossless files
-            HashSet<string> lossyFiles = new HashSet<string>();  // stores full file name of lossy files
+            HashSet<string> losslessFiles = new HashSet<string>();  // stores full file name without extension of lossless files
+            List<string> lossyFiles = new List<string>();  // stores full file name of lossy files
 
             // get all files from the given path and all subfolders
             var allFiles = fileSystem.Directory.GetFiles(path, "*.*", SearchOption.AllDirectories);
